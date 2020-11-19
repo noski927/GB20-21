@@ -1,0 +1,110 @@
+
+
+
+.topnav {
+  background-color: #333333;
+  overflow: hidden;
+  padding: 14px 40px;
+  text-align:center ;
+  font-size: 20pt;
+
+}
+
+
+.topnav a {
+  color: white;
+}
+
+.topnav :active {
+  color: red;
+}  
+
+/* menu */
+
+.wapper {
+	position: relative;
+  margin-left: 15%;
+  width: 70%; /* Ширина элемента в пикселах */
+  padding: 10px; /* Поля вокруг текста */
+  font-family: Helvetica;
+  font-size: 16pt;
+  border : 2px solid #000;
+  background-color:#f8f8f8 ;
+}
+
+#init_wap { /* для init файла */
+  margin-top: 14%;
+  margin-left: auto;
+  width: 35%;
+  text-align: center;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.col-1 {
+  padding: 10px;
+  display: block;
+  width: 76%;
+}
+
+.col-1 #picture_product{
+  width: 55%;
+}
+
+.div1 {
+  margin-right: 20px;
+
+}
+
+.div2 {
+  background-color: white;
+  overflow:hidden;
+  margin:10px;
+  min-height:170px;
+  
+}
+img {
+  width: 100%;
+}
+
+.span_text p {  
+  text-align: center;
+  width: fit-content;
+}
+
+
+.col-2 {
+  display: block;
+  width: 76%;
+  padding: 10px;
+ 
+}
+
+
+.col-3 {
+  display: block; 
+  width: 100%;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333333;
+  color: #757577;
+  text-align: center;
+}
