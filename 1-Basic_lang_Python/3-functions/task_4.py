@@ -19,15 +19,3 @@ def my_func():
 print(my_func())
 
 
-### второй вариант
-
-
-# def my_func(x,y):
-#     #return (map(lambda x: x*y*y ,x))
-#
-# x=int(input())
-# y = int (input ())
-# func=my_func(x,y)
-# print(func)
-#
-# def my_func(x,y):

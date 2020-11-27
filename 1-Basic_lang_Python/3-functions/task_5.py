@@ -5,10 +5,29 @@
 # Но если вместо числа вводится специальный символ, выполнение программы завершается.
 # Если специальный символ введен после нескольких чисел, то вначале нужно добавить сумму этих чисел к полученной ранее сумме и после этого завершить программу.
 
-while True:
-    start=int(input())
 
-    #fjslkdfjld
-    dsfljl
+def my_sum ():
+    sum_result = 0
+    up = False
+    while up == False:
+        number = input('введите число или Q чтобы выйти -  ').split()
+
+        result = 0
+        for i in range(len(number)):
+            if number[i] == 'q' or number[i] == 'Q':
+                up = True
+                break
+            else:
+                result = result + int(number[i])
+        sum_result = sum_result + result
+        print(f'текущая сумма {sum_result}')
+    print(f'финальная сумма {sum_result}')
+
+
+my_sum()
+
+
+
+
 
 
