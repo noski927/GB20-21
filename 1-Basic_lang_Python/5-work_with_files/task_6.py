@@ -12,12 +12,13 @@
 
 # [int(s) for s in str.split() if s.isdigit()]
 
-with open('task5_text.txt') as f:
+with open('task6_text.txt') as f:
     lines=f.readlines()
     for i in lines:
         print(i)
         ln = str (lines[i])
         a,b=ln.split(': ')
+        print (b[b.index (' '):b.index ('(') + len (b)])
 
 
 
@@ -36,7 +37,7 @@ with open('task5_text.txt') as f:
 #
 #
 # # for i in range():
-print(b[b.index(' '):b.index('(')+len(b)])
+
 
 
 

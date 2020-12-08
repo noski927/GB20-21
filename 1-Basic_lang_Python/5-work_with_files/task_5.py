@@ -7,7 +7,7 @@ import math
 def generate_num():
     num = math.trunc (random.gauss (899, 100))
     return num
-with open ('task6_text.txt', 'w') as f:
+with open ('task5_text.txt', 'w') as f:
     a=['{}'.format(generate_num()) for _ in range(10)]
     f.write(str(a))
 
