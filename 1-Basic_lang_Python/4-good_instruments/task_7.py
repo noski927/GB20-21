@@ -14,6 +14,6 @@ def fctr():
 x = 1
 for i in fctr():
     print (f'Факториал {x}-{i}')
-    if x == 66666:
+    if x == 10:
         break
     x += 1
