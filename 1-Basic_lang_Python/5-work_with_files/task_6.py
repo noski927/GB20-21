@@ -21,15 +21,6 @@ with open('task6_text.txt') as f:
         print (b[b.index (' '):b.index ('(') + len (b)])
 
 
-
-
-
-
-
-
-
-
-
 #     for i in range(len(lines)):
 #         ln = str(lines[i])
 #         a,b=ln.split(': ')
@@ -37,12 +28,6 @@ with open('task6_text.txt') as f:
 #
 #
 # # for i in range():
-
-
-
-
-
-
 
 
 
