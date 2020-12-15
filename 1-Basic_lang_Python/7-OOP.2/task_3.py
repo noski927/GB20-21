@@ -31,3 +31,6 @@ class Cell:
 
     def __truediv__(self, other):
         return 'Truediv of cells is ' + str(round(self.nums / other.nums))
+
+cell_first = Cell(20)
+cell_second  = Cell(30)
