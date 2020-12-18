@@ -4,7 +4,7 @@
 
 first = int(input())
 second = int(input())
-third, third_1 = input('Напиши тут что-нибудь'), input('и еще чего- нибудь')
+third, third_1 = input('Напиши тут что-нибудь: '), input('и еще чего- нибудь: ')
 
 out = f'{first}, {third}, {second}, {third_1}'
 print(out)
